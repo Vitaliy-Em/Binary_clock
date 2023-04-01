@@ -1,0 +1,369 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="200dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="16"
+                    android:textColor="#000000"
+                    android:textSize="36sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="26dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="8"
+                    android:textColor="#000000"
+                    android:textSize="36sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="26dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="#000000"
+                    android:textSize="36sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="26dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="#000000"
+                    android:textSize="36sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="26dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="#000000"
+                    android:textSize="36sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:text="День"
+                    android:textColor="#616161"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/Day16"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="177dp"
+                    android:scaleType="centerCrop"
+                    android:src="@color/white" />
+
+                <ImageView
+                    android:id="@+id/Day8"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="31dp"
+                    android:scaleType="centerCrop"
+                    android:src="@color/white" />
+
+                <ImageView
+                    android:id="@+id/Day4"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="31dp"
+                    android:scaleType="centerCrop"
+                    android:src="@color/white" />
+
+                <ImageView
+                    android:id="@+id/Day2"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="31dp"
+                    android:scaleType="centerCrop"
+                    android:src="@color/white" />
+
+                <ImageView
+                    android:id="@+id/Day1"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="31dp"
+                    android:scaleType="centerCrop"
+                    android:src="@color/white" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:text="Месяц"
+                    android:textColor="#616161"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/Month8"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="250dp"
+                    android:scaleType="centerCrop"
+                    android:src="@color/white" />
+
+                <ImageView
+                    android:id="@+id/Month4"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="31dp"
+                    android:scaleType="centerCrop"
+                    android:src="@color/white" />
+
+                <ImageView
+                    android:id="@+id/Month2"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="31dp"
+                    android:scaleType="centerCrop"
+                    android:src="@color/white" />
+
+                <ImageView
+                    android:id="@+id/Month1"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="31dp"
+                    android:scaleType="centerCrop"
+                    android:src="@color/white" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:text="Год"
+                    android:textColor="#616161"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/Year64"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="31dp"
+                    android:scaleType="centerCrop"
+                    android:src="@color/white" />
+
+                <ImageView
+                    android:id="@+id/Year32"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="31dp"
+                    android:scaleType="centerCrop"
+                    android:src="@color/white" />
+
+                <ImageView
+                    android:id="@+id/Year16"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="31dp"
+                    android:scaleType="centerCrop"
+                    android:src="@color/white" />
+
+                <ImageView
+                    android:id="@+id/Year8"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="31dp"
+                    android:scaleType="centerCrop"
+                    android:src="@color/white" />
+
+                <ImageView
+                    android:id="@+id/Year4"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="31dp"
+                    android:scaleType="centerCrop"
+                    android:src="@color/white" />
+
+                <ImageView
+                    android:id="@+id/Year2"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="31dp"
+                    android:scaleType="centerCrop"
+                    android:src="@color/white" />
+
+                <ImageView
+                    android:id="@+id/Year1"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="31dp"
+                    android:scaleType="centerCrop"
+                    android:src="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="56dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="64"
+                    android:textColor="#000000"
+                    android:textSize="36sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="26dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="32"
+                    android:textColor="#000000"
+                    android:textSize="36sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="26dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="16"
+                    android:textColor="#000000"
+                    android:textSize="36sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="26dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="8"
+                    android:textColor="#000000"
+                    android:textSize="36sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="26dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="#000000"
+                    android:textSize="36sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="26dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="#000000"
+                    android:textSize="36sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="26dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="#000000"
+                    android:textSize="36sp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp"
+            android:onClick="time"
+            android:text="ВРЕМЯ" />
+
+    </LinearLayout>
+</RelativeLayout>

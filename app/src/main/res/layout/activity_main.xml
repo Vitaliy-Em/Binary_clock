@@ -1,0 +1,369 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                                <TextView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="132dp"
+                                    android:fontFamily="sans-serif-light"
+                                    android:gravity="center"
+                                    android:text="16"
+                                    android:textColor="#000000"
+                                    android:textSize="36sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="26dp"
+                                    android:fontFamily="sans-serif-light"
+                                    android:gravity="center"
+                                    android:text="8"
+                                    android:textColor="#000000"
+                                    android:textSize="36sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="26dp"
+                                    android:fontFamily="sans-serif-light"
+                                    android:gravity="center"
+                                    android:text="4"
+                                    android:textColor="#000000"
+                                    android:textSize="36sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="26dp"
+                                    android:fontFamily="sans-serif-light"
+                                    android:gravity="center"
+                                    android:text="2"
+                                    android:textColor="#000000"
+                                    android:textSize="36sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="26dp"
+                                    android:fontFamily="sans-serif-light"
+                                    android:gravity="center"
+                                    android:text="1"
+                                    android:textColor="#000000"
+                                    android:textSize="36sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="16dp"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:gravity="center"
+                                    android:text="Часы"
+                                    android:textColor="#616161"
+                                    android:textSize="14sp" />
+
+                                <ImageView
+                                    android:id="@+id/Hour16"
+                                    android:layout_width="42dp"
+                                    android:layout_height="42dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginTop="104dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@color/white" />
+
+                                <ImageView
+                                    android:id="@+id/Hour8"
+                                    android:layout_width="42dp"
+                                    android:layout_height="42dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginTop="31dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@color/white" />
+
+                                <ImageView
+                                    android:id="@+id/Hour4"
+                                    android:layout_width="42dp"
+                                    android:layout_height="42dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginTop="31dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@color/white" />
+
+                                <ImageView
+                                    android:id="@+id/Hour2"
+                                    android:layout_width="42dp"
+                                    android:layout_height="42dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginTop="31dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@color/white" />
+
+                                <ImageView
+                                    android:id="@+id/Hour1"
+                                    android:layout_width="42dp"
+                                    android:layout_height="42dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginTop="31dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@color/white" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="16dp"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:gravity="center"
+                                    android:text="Минуты"
+                                    android:textColor="#616161"
+                                    android:textSize="14sp" />
+
+                                <ImageView
+                                    android:id="@+id/Minute32"
+                                    android:layout_width="42dp"
+                                    android:layout_height="42dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginTop="31dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@color/white" />
+
+                                <ImageView
+                                    android:id="@+id/Minute16"
+                                    android:layout_width="42dp"
+                                    android:layout_height="42dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginTop="31dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@color/white" />
+
+                                <ImageView
+                                    android:id="@+id/Minute8"
+                                    android:layout_width="42dp"
+                                    android:layout_height="42dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginTop="31dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@color/white" />
+
+                                <ImageView
+                                    android:id="@+id/Minute4"
+                                    android:layout_width="42dp"
+                                    android:layout_height="42dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginTop="31dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@color/white" />
+
+                                <ImageView
+                                    android:id="@+id/Minute2"
+                                    android:layout_width="42dp"
+                                    android:layout_height="42dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginTop="31dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@color/white" />
+
+                                <ImageView
+                                    android:id="@+id/Minute1"
+                                    android:layout_width="42dp"
+                                    android:layout_height="42dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginTop="31dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@color/white" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="16dp"
+                                    android:fontFamily="sans-serif-medium"
+                                    android:gravity="center"
+                                    android:text="Секунды"
+                                    android:textColor="#616161"
+                                    android:textSize="14sp" />
+
+                                <ImageView
+                                    android:id="@+id/Second32"
+                                    android:layout_width="42dp"
+                                    android:layout_height="42dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginTop="31dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@color/white" />
+
+                                <ImageView
+                                    android:id="@+id/Second16"
+                                    android:layout_width="42dp"
+                                    android:layout_height="42dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginTop="31dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@color/white" />
+
+                                <ImageView
+                                    android:id="@+id/Second8"
+                                    android:layout_width="42dp"
+                                    android:layout_height="42dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginTop="31dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@color/white" />
+
+                                <ImageView
+                                    android:id="@+id/Second4"
+                                    android:layout_width="42dp"
+                                    android:layout_height="42dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginTop="31dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@color/white" />
+
+                                <ImageView
+                                    android:id="@+id/Second2"
+                                    android:layout_width="42dp"
+                                    android:layout_height="42dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginTop="31dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@color/white" />
+
+                                <ImageView
+                                    android:id="@+id/Second1"
+                                    android:layout_width="42dp"
+                                    android:layout_height="42dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginTop="31dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@color/white" />
+
+                        </LinearLayout>
+
+                        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="56dp"
+                                    android:fontFamily="sans-serif-light"
+                                    android:gravity="center"
+                                    android:text="32"
+                                    android:textColor="#000000"
+                                    android:textSize="36sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="26dp"
+                                    android:fontFamily="sans-serif-light"
+                                    android:gravity="center"
+                                    android:text="16"
+                                    android:textColor="#000000"
+                                    android:textSize="36sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="26dp"
+                                    android:fontFamily="sans-serif-light"
+                                    android:gravity="center"
+                                    android:text="8"
+                                    android:textColor="#000000"
+                                    android:textSize="36sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="26dp"
+                                    android:fontFamily="sans-serif-light"
+                                    android:gravity="center"
+                                    android:text="4"
+                                    android:textColor="#000000"
+                                    android:textSize="36sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="26dp"
+                                    android:fontFamily="sans-serif-light"
+                                    android:gravity="center"
+                                    android:text="2"
+                                    android:textColor="#000000"
+                                    android:textSize="36sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="26dp"
+                                    android:fontFamily="sans-serif-light"
+                                    android:gravity="center"
+                                    android:text="1"
+                                    android:textColor="#000000"
+                                    android:textSize="36sp" />
+
+
+                        </LinearLayout>
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/Date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="32dp"
+                    android:onClick="date"
+
+                    android:text="Дата" />
+
+        </LinearLayout>
+</RelativeLayout>
